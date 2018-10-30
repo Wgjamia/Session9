@@ -11,6 +11,18 @@ public class Student {
 
     }
 
+    public Student(int rollId) {
+        this.rollId = rollId;
+    }
+
+    public Student(int rollId, String name, String email, int age, String address) {
+        this.rollId = rollId;
+        this.name = name;
+        this.email = email;
+        this.age = age;
+        this.address = address;
+    }
+
     public Student(String name, String email, int age, String address) {
         this.name = name;
         this.email = email;
